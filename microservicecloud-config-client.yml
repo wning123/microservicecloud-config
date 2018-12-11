@@ -2,6 +2,8 @@
   profiles:
     active:
     - dev
+    
+    
 ---
 server: 
   port: 8201 
@@ -13,6 +15,7 @@ eureka:
   client: 
     service-url: 
       defaultZone: http://eureka-dev.com:7001/eureka/   
+      
 ---
 server: 
   port: 8202 
