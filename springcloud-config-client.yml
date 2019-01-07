@@ -7,8 +7,6 @@ server:
   port: 8809
 spring:
   profiles: dev
-  application: 
-    name: springcloud-config-client
 eureka: 
   client: 
     service-url: 
@@ -18,8 +16,6 @@ server:
   port: 8819 
 spring:
   profiles: test
-  application: 
-    name: springcloud-config-client
 eureka: 
   client: 
     service-url: 
